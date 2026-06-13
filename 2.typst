@@ -1,0 +1,244 @@
+#set page(width: 21cm, height: 28.5cm)
+#set page(margin: (
+  left: 2.5cm,
+  right: 2.9cm,
+))
+#set text(size: 10.5pt)
+#set text(font: "SimSun")
+#show text.where(weight: "bold"): set text(font: "SimSun-Bold")
+#set par(leading: 1.5em)
+
+#text(weight: "bold")[绝密★启用前]
+#align(center)[
+  #text(size: 16pt)[2026年普通高等学校招生全国统一考试]\
+  #text(size: 28pt, weight: "bold")[数#h(1em)学]
+]
+
+#text(weight: "bold")[注意事项:]
+
+#set par(first-line-indent: 2em)
+1.答卷前，考生务必将自己的姓名、考生号、考场号、座位号填写在答题卡上。
+
+2.回答选择题时，选出每小题答案后，用铅笔把答题卡上对应题目的答案标号涂黑，如需改动，用橡皮擦干净后，再选涂其他答案标号。回答非选择题时，将答案写在答题卡上。写在本试卷上无效。
+
+3.考试结束后，将本试卷和答题卡一并交回。
+
+#v(1.5em)
+
+#set par(hanging-indent: 2em, first-line-indent: 0em)
+#text(weight: "bold")[一、选择题：本题共8小题，每小题5分，共40分。在每小题给出的四个选项中，只有一项是符合题目要求的。]
+
+#pad(left: 1em)[
+  1. $(1-3i)^2 =$
+
+  #pad(left: 1.5em)[
+    A. $-8+6i$ #h(1fr)
+    B. $-8-6i$ #h(1fr)
+    C. $8+6i$ #h(1fr)
+    D. $8-6i$ #h(1fr)
+  ]
+
+  2. 已知集合$A = {0,1,3,6,9}$，$B = {x | sqrt(x) = x}$，则$A inter B =$
+
+  #pad(left: 1.5em)[
+    A. ${0,1}$ #h(1fr)
+    B. ${3,6}$ #h(1fr)
+    C. ${0,1,9}$ #h(1fr)
+    D. ${0,3,9}$ #h(1fr)
+  ]
+
+  3. 已知$|bold(a)+bold(b)|=1$，$|bold(a)-bold(b)|=sqrt(3)$，则$bold(a) dot bold(b) =$
+  #v(0.5em)
+  #pad(left: 1.5em)[
+    A. $display(frac(1, 2))$ #h(1fr)
+    B. $display(frac(1, 3))$ #h(1fr)
+    C. $display(-frac(1, 3))$ #h(1fr)
+    D. $display(-frac(1, 2))$ #h(1fr)
+  ]
+  #v(0.5em)
+  4. 已知双曲线$C: display(frac(x^2, a^2)) - display(frac(y^2, b^2)) = 1 (a>0,b>0)$过点$(1,0)$和$(display(frac(sqrt(7), 2)),3)$，则双曲线$C$的渐近线方程是
+
+  #pad(left: 1.5em)[
+    A. $y=plus.minus 3sqrt(2)x$ #h(1fr)
+    B. $y=plus.minus 2sqrt(3)x$ #h(1fr)
+    C. $y=plus.minus display(frac(sqrt(3), 6))x$ #h(1fr)
+    D. $y=plus.minus display(frac(sqrt(2), 6))x$ #h(1fr)
+  ]
+
+  5. 已知棱台的上下底面均为有一个角为$60 degree$的菱形，且上下底面的边长分别为2和3，若该棱台的高为$sqrt(3)$，则该棱台的体积为
+  #v(0.5em)
+  #pad(left: 1.5em)[
+    A. $display(frac(19, 12))$ #h(1fr)
+    B. $display(frac(19, 6))$ #h(1fr)
+    C. $display(frac(19, 4))$ #h(1fr)
+    D. $display(frac(19, 2))$ #h(1fr)
+  ]
+  #v(0.5em)
+  6. 现有甲、乙、丙、丁等8人分成$A$、$B$两个技术小组，要求每组4人，且甲、乙必须在一起，丙、丁不能在一起，则不同的分配方案有
+
+  #pad(left: 1.5em)[
+    A. $10$种 #h(1fr)
+    B. $12$种 #h(1fr)
+    C. $16$种 #h(1fr)
+    D. $24$种 #h(1fr)
+  ]
+
+]
+
+#align(center, "数学试题第1页（共4页）")
+
+#pagebreak()
+
+#pad(left: 1em)[
+  7. 已知$alpha$为第二象限角，且$3sin alpha cos alpha = 8sin alpha cos 2alpha$，则$display(frac(1+cos alpha, 2-cos alpha)) =$
+  #v(0.5em)
+  #pad(left: 1.5em)[
+    A. $display(frac(3, 4))$ #h(1fr)
+    B. $display(frac(3, 5))$ #h(1fr)
+    C. $display(frac(1, 2))$ #h(1fr)
+    D. $display(frac(5, 12))$ #h(1fr)
+  ]
+  #v(0.5em)
+
+  8. 已知函数$f(x)$为偶函数，且满足$f(x)+f(x-2)=0$，且当$x in[display(frac(3, 2)),3]$时，$f(x)=x^2+a x+b$，则$a$、$b$的值分别为
+
+  #pad(left: 1.5em)[
+    A. $a=-2,b=-3$ #h(1fr)
+    B. $a=-2,b=3$ #h(1fr)
+    C. $a=-4,b=-3$ #h(1fr)
+    D. $a=-4,b=3$ #h(1fr)
+  ]
+]
+#v(0.5em)
+#text(
+  weight: "bold",
+)[二、选择题：本题共3小题，每小题6分，共18分。在每小题给出的选项中，有多项符合题目要求的。全部选对得6分，部分选对的得部分分，有选错的得0分。]
+
+#pad(left: 1em)[
+  9. 已知圆$O:x^2+y^2=1$，圆$A:x^2+y^2-6x-8y+k=0$，则下列说法正确的是
+
+  #pad(left: 1.5em)[
+    A. $A$点坐标为$A(-3,-4)$ #h(1fr) \
+    B. 当$k=9$时，圆$A$与$x$轴相切 #h(1fr) \
+    C. 当$k=11$时，圆$A$与圆$O$相切 \
+    D. 当圆$A$与圆$O$相交时，两交点所在的直线方程为$6x+8y-k-2=0$
+  ]
+
+  10. 已知等比数列${a_n}$的公比$q eq.not 1$，且$a_1>0$，$2a_3=a_1+a_2$，记数列${a_n}$的前$n$项和为$S_n$，则
+
+  #pad(left: 1.5em)[
+    #grid(
+      columns: (1fr, 1fr),
+      row-gutter: 2.0em,
+      [A. $q=-display(frac(1, 2))$], [B. $S_n>display(frac(2, 3))a_1$],
+      [C. $2S_(n+2)=S_(n+1)+S_n$], [D. $display(sum_(k=1)^n S_k)> display(frac(2n, 3))a_1$],
+    )
+  ]
+
+  11. 已知抛物线$E:y^2=8x$，有一斜率为$k(k>0)$的直线$l$过点$(-1,0)$，点$A$在抛物线$E$上，$B$、$C$两点在直线$l$上，则
+
+  #pad(left: 1.5em)[
+    A. 抛物线$E$的准线方程为$x=-2$\
+    B. 当直线$l$与抛物线$E$无交点时，$k>sqrt(2)$ \
+    C. 若直线$l$与抛物线$E$相交于唯一一点$B$，则抛物线$E$的焦点在直线$A B$上 \
+    D. 当$k=2$时，$triangle A B C$面积的最小值为$display(frac(sqrt(3), 15))$
+  ]
+]
+
+#v(0.5em)
+
+#text(
+  weight: "bold",
+)[三、填空题：本题共3小题，每小题5分，共15分。]
+
+#pad(left: 1em)[
+  12. 设$S_n$为等差数列${a_n}$的前$n$项和，若$a_1=-1$，$a_4=5$，则$S_6=underline(#h(8em))$.\
+  13. 若函数$f(x)=2^x+2^(2-x)-m$有两个零点，则$m$的取值范围是$underline(#h(8em))$.\
+  14. 已知球$O$的体积为$V_O=4 sqrt(3)pi$，点$A$、$B$、$C$、$D$均在球表面上，若$triangle A B C$为正三角形，且$D A=D B=D C=sqrt(2)$，则$S_(triangle A B C)=underline(#h(8em))$.
+]
+
+#align(center, "数学试题第2页（共4页）")
+
+#pagebreak()
+
+#text(
+  weight: "bold",
+)[四、解答题：本题共5小题，共77分。解答应写出文字说明、证明过程或演算步骤。]
+
+#pad(left: 1em)[
+  15.（本小题满分13分）
+
+  #pad(left: 1.5em)[
+    某工厂抽取一批电子元件检测，记录第一次出故障的时间（天），然后绘制出如下有关于“首次故障时间”和“对应频率”的频率分布直方图.
+  ]
+
+  #align(center)[
+    #image("resource/2026_2_15_1.png", width: 80%)
+  ]
+
+  #pad(left: 1.5em)[
+    (1) 求第一四分位数和中位数；\
+    (2) 设$hat(p)$为首次故障时间小于365天的概率估计值.
+  ]
+  #pad(left: 3.5em)[
+    (i) 求$hat(p)$；\
+    (ii) 已知该工厂向某用户出售了100件电子元件，$X$为这100件产品首次出现故障时间小于365天的件数的分布列，若$X tilde.op B(100,hat(p))$，求$E(X)$和$P(X)$.
+  ]
+  #v(4em)
+  16.（本小题满分15分）
+
+  #pad(left: 1.5em)[
+    如图，在三棱锥$A-B C D$中，点$E$在$B D$上，$A E tack.t C E$，$A E tack.t D E$，$C D tack.t A D$.
+
+    #pad(left: 1.5em)[
+      (1) 求证：$C D tack.t A B$； \
+      (2) 若$D E=2$，$B E=1$，$A E=sqrt(2)$，$C D=2 sqrt(3)$，求直线$A D$与面$A B C$所成角的正弦值.
+    ]
+  ]
+  #align(right)[
+    #image("resource/2026_2_16_1.png", width: 40%)]
+]
+
+#align(center, "数学试题第3页（共4页）")
+
+#pagebreak()
+
+#pad(left: 1em)[
+  17.（本小题满分15分）
+
+  #pad(left: 1.5em)[
+    记 $triangle A B C$ 的内角 $A$、$B$、$C$ 的对边分别为 $a$、$b$、$c$。已知 $cos B = display(frac(3, 4))$，
+    $cos^2 (A + C) + sin A sin C = 1$.\
+    (1) 求证：$triangle A B C$ 是钝角三角形；\
+    (2) 已知 $triangle A B C$ 的面积为 $display(frac(sqrt(7), 4))$，求 $triangle A B C$ 的周长.
+  ]
+  #v(7em)
+  18.（本小题满分17分）
+
+  #pad(left: 1.5em)[
+    已知椭圆 $E: display(frac(x^2, a^2)) + y^2 = 1 (a > 1)$ 的右焦点为 $F_1$，过 $F_1$ 且与 $x$ 轴垂直的直线被 $E$ 所截的
+    线段长为 $sqrt(2)$.\
+    (1) 求椭圆 $E$ 的离心率；\
+    (2) 设 $O$ 点为坐标原点，给定 $G(t_0, 0) (t_0 != 0)$，$A(x_0, y_0) (y_0 != 0)$ 在椭圆 $E$ 上，过 $A$
+    作 $y$ 轴的垂线，垂足为 $B$，$A O$ 和 $G B$ 交于一点 $P$，当 $A$ 在椭圆 $E$ 上运动时，$P$ 点轨迹为 $M$.
+  ]
+  #pad(left: 1.5em)[
+    #pad(left: 1.5em)[
+      (i) 求轨迹 $M$ 的方程；\
+      (ii) 当 $t_0$ 取何值时，轨迹 $M$ 有对称中心？当轨迹 $M$ 有对称中心时，将轨迹 $M$
+      平移到轨迹 $M'$ 使 $O(0,0)$ 为其对称中心点，试说明轨迹 $M'$ 是什么形状？
+    ]
+  ]
+  #v(7em)
+  19.（本小题满分17分）
+
+  #pad(left: 1.5em)[
+    已知函数 $f(x) = x e^x - a x + b$.\
+    (1) 若函数 $f(x)$ 在点 $(0, f(0))$ 处的切线方程为 $y = -2 x + 1$，求 $a$、$b$；\
+    (2) 若 $x > 0$ 时，$f(x + m) - f(x) > m$ 恒成立，求 $m$ 的取值范围；\
+    (3) 若 $x > 0$ 时，$f(x + k) - f(k - x) > 2 f(k)$ 恒成立，求 $k$ 的最小值.
+  ]
+]
+
+#v(3em)
+#align(center, "数学试题第4页（共4页）")
